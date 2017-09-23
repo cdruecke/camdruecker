@@ -1,0 +1,110 @@
+// Social icons by the talented Bartłomiej Jacak, under CC 3.0. https://www.iconfinder.com/bartekjacak for his work.
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Arvo');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.title-landing {
+  padding-top: 17%;
+  padding-bottom: 23%;
+  background: image_url("title-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.title {
+  color: white;
+  font-family: 'Arvo';
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-align: right;
+  margin-right: 15%;
+}
+
+.essence-title {
+  padding-top: 10%;
+  padding-left: 5%;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-position-y: 85%;
+  &#wellness {
+    background: image_url("wellness-background.jpeg");
+    background-size: cover;
+    background-position-y: 85%;
+  }
+  &#food {
+    background: image_url("food-background.jpeg");
+    background-size: cover;
+    background-position-y: 30%;
+  }
+  &#videogames {
+    background: image_url("games-background.jpeg");
+    background-size: cover;
+    background-position-y: 45%;
+  }
+  letter-spacing: 3px;
+  font-weight:600;
+  text-align: left;
+}
+
+.new-section {
+  margin-top: 5%;
+}
+
+.new-section > h2 {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.work-section {
+  background: #eee;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+
+.side-info {
+  margin-top: 20px;
+}
+
+.achievement {
+  margin-bottom: 100px;
+}
+
+.last-section {
+  margin-bottom: 15%;
+}
+
+.nav-center {
+  float: none;
+  width: 350px;
+  margin: auto;
+}
+
+.work-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.social-list {
+  text-align: center;
+  padding: 0;
+}
+
+.social-link {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 40px;
+}
